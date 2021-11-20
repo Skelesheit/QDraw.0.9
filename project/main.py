@@ -588,8 +588,6 @@ class Qdrow(QWidget, Ui_MainWindow):
         self.pixmap = QPixmap("bufer.jpg")
         self.picture.setPixmap(self.pixmap)
         self.scrollArea.setWidget(self.picture)
-        self.scroll_x_bar = 0
-        self.scroll_y_bar = 0
 
 
 if __name__ == '__main__':
